@@ -1,0 +1,177 @@
+Received: from ME3PR01MB6069.ausprd01.prod.outlook.com (2603:10c6:220:e0::6)
+ by SY2PR01MB2316.ausprd01.prod.outlook.com with HTTPS; Wed, 15 Jun 2022
+ 02:54:57 +0000
+Received: from ME2PR01CA0077.ausprd01.prod.outlook.com (2603:10c6:201:2d::17)
+ by ME3PR01MB6069.ausprd01.prod.outlook.com (2603:10c6:220:e0::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5332.12; Wed, 15 Jun
+ 2022 02:54:56 +0000
+Received: from ME3AUS01FT018.eop-AUS01.prod.protection.outlook.com
+ (2603:10c6:201:2d:cafe::e3) by ME2PR01CA0077.outlook.office365.com
+ (2603:10c6:201:2d::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5273.14 via Frontend
+ Transport; Wed, 15 Jun 2022 02:54:56 +0000
+Authentication-Results: spf=pass (sender IP is 131.181.118.33)
+ smtp.mailfrom=qut.edu.au; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=qut.edu.au;
+Received-SPF: Pass (protection.outlook.com: domain of qut.edu.au designates
+ 131.181.118.33 as permitted sender) receiver=protection.outlook.com;
+ client-ip=131.181.118.33; helo=emailrelay03.qut.edu.au; pr=C
+Received: from emailrelay03.qut.edu.au (131.181.118.33) by
+ ME3AUS01FT018.mail.protection.outlook.com (10.114.155.76) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5353.14 via Frontend Transport; Wed, 15 Jun 2022 02:54:55 +0000
+Received: from samsapps30.qut.edu.au (samsapps30.qut.edu.au [131.181.187.13])
+	by emailrelay03.qut.edu.au (8.14.7/8.14.7) with ESMTP id 25F2stC5041969
+	(version=TLSv1/SSLv3 cipher=ECDHE-RSA-AES256-SHA384 bits=256 verify=NO)
+	for <connor.mcsweeney@connect.qut.edu.au>; Wed, 15 Jun 2022 12:54:55 +1000
+X-Unsent: 1
+Message-ID: <a1bad045489a415d843d99c7e4271f85>
+From: no-reply@qut.edu.au
+Subject: We've processed your Assignment extension request FORM-AEX-146893
+To: connor.mcsweeney@connect.qut.edu.au
+Date: Wed, 15 Jun 2022 02:54:55 +0000
+Content-Type: multipart/alternative;
+ boundary="--_=_NextPart0_db0cc367-2ed5-4540-bcc9-558d18d5ebe6"
+Return-Path: no-reply@qut.edu.au
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Jun 2022 02:54:56.0155
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 5faf8ed4-603f-479b-dfce-08da4e7a6db8
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ ME3AUS01FT018.eop-AUS01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: mail-relay.qut.edu.au
+X-MS-Office365-Filtering-Correlation-Id: 5faf8ed4-603f-479b-dfce-08da4e7a6db8
+X-MS-TrafficTypeDiagnostic: ME3PR01MB6069:EE_
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:1;
+X-Forefront-Antispam-Report:
+ CIP:131.181.118.33;CTRY:AU;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:emailrelay03.qut.edu.au;PTR:mail-relay.qut.edu.au;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-ABP-GUID: 95b21187-2bcb-4e1e-b8b5-5f3d729adfb4
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Jun 2022 02:54:55.9686
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5faf8ed4-603f-479b-dfce-08da4e7a6db8
+X-MS-Exchange-CrossTenant-Id: dc0b52a3-68c5-44f7-881d-9383d8850b96
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=dc0b52a3-68c5-44f7-881d-9383d8850b96;Ip=[131.181.118.33];Helo=[emailrelay03.qut.edu.au]
+X-MS-Exchange-CrossTenant-AuthSource:
+ ME3AUS01FT018.eop-AUS01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: ME3PR01MB6069
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.2001076
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5332.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?Wll0TTNyYUNUbUxweWNGa2ZPRzJYZi9zbXJZOXJ0bVhGTGE4U2hoeEw3ZUkv?=
+ =?utf-8?B?TWt2b1ZXM2g5TjN5NVUvVnhsL3B4RVpJb1ZvQjdIUXdVZHRyajh4Vk1meXc1?=
+ =?utf-8?B?RjYyUWJNS0xibWJBQXRWNzB4SjEvcFd4bGRlRFl4MnJvSlFUa0ZqeG4xT1NX?=
+ =?utf-8?B?dkZDbVJwRERNSEg2Q1VLZElkQmVHdFI2YWFqK1hvUlZSVlhCZ3g0OXNYdmtQ?=
+ =?utf-8?B?Tld1T2xONlNCV1NoRm9iZ2x0K2l1QWZSNUlJM3VWMW1kRkM4TXk0TFpFZzNh?=
+ =?utf-8?B?Vm9mVXBTVjNWcmVNZSt1ajl0TDNLTXIvdVM1aDl2U3dkQ1lzN0RnckFyMzM3?=
+ =?utf-8?B?cktQRVRTVXEzZ0YyS2dSNGY2dkF3MGNXcng2QjM2NHhvb2RKUERCeVpmZ3ZY?=
+ =?utf-8?B?eWZzZFErZGxoaHVsLzlvb2lQREQrUE5KanVRWEJ5SmhIbXI3czFPVDh0QzFW?=
+ =?utf-8?B?eGcyQjUvbkZ6dEp5Szd0cHVUakhvZmtTbGVid2JWaTBSdU01SDZJQmtrajhY?=
+ =?utf-8?B?M095bkRQWitOckZzOWVhRTdkQmtXRlZjZXlkemlzVDhsazBhVjgrZjFRM3Z0?=
+ =?utf-8?B?Y01uaVd2WDAyNnRSODY5QlppVjhvZnlFcDIvKzNCeDc5ZWlOa2l0dkVNNDQ3?=
+ =?utf-8?B?TEthUEl4SHB1S0tMa3ZoMklmV3pJMUVRYUtiMHZ4VWEzbHU4L21GM1ZHdkZG?=
+ =?utf-8?B?Y3NvQmh5UUlXS2N2Ym5LZ01udFp0TXlWeC9OdzI5ekl2UEQ1LzRxUHlhSHRi?=
+ =?utf-8?B?VEx3dThzZ2JTcithOWhGT1dhNDRieXgvd0J3Z3A1T0toS1kvS2pVZFBpQmNh?=
+ =?utf-8?B?ZitkekZpQ2dkKzJDWStreE1PN09sL3BoOTQvWDJHVW9vSDhJSTBqbWNqWkJo?=
+ =?utf-8?B?Yi9SUHA2L2F2R1hqU3FqQ0hIWDc3L3RnL0JHK0NXU1dIbFN4TWVtbGk4RmNJ?=
+ =?utf-8?B?ZHM3aERaMldRR3lBOVNLS2ZqeFRYRUhJK0dtT0VONEJ4M3MwTDRWMnZQRGlN?=
+ =?utf-8?B?akVsRkRmcmsyU3NXdzJYRjg5dXhHSXdBdEdqRW9teFJxMG9JKzZVUXE0RndM?=
+ =?utf-8?B?UmFCY0s4QjAzY0pHMnBJbjAwQmJ0K05IMjEvRjR3RzJrNFNmZCtkS2JLTzBI?=
+ =?utf-8?B?MWlPM2dLalh6OUR4ZGgwWmlPK3FJSFJaMVRPaUluUm84MlRRM2h3VEczeHNE?=
+ =?utf-8?B?TW9pUWRPWW9qUWxGMVFlcUZQVi91OVJYTllHSkNqVGYxSnl4c3hwTERxVDA3?=
+ =?utf-8?B?WGhTWmdKWVZPZndhWVpNSzdoNmpkRVZQaXp0M2JtZEVQU2lUSDNqQ2ZVelo2?=
+ =?utf-8?B?bHE2WWlWU2RRUFgwTFhUbkx5aXIrQ3RCTUUxTHoraE9IQmVEY0w0TXJnQ0Fw?=
+ =?utf-8?B?YUw5UEdxSUVLTlpxdzJWSC96dnNMODBFRnBWUEVpZDRDOG9WWVFMQjdId2Jh?=
+ =?utf-8?B?cDc0b0pCNEduRE5GdTVtbHd3S2djTXFVc0t4Mk05Vk5haW1XY241SUtzTGlZ?=
+ =?utf-8?B?a0dUcjJIVVluMWRFOG9iZ0NwYlUwSFJRclBleUVvZHJCUHJ3bGtvVzdLNElW?=
+ =?utf-8?B?Q2tha0xCK0NmTkxBNWhNSk1jWHVHZjRzaTRZTHFKeGMrRTNTdGhsM3BJd21j?=
+ =?utf-8?B?dUowemRxUCtBY3pMK3VjUGNUUHVZMWszZ1Erc1BrSzR6MVVXUmltZlpQOStT?=
+ =?utf-8?B?K3NEZnNCZWszUUQwNXBycVRQMm1jUXlqUGNVZ09qNDkrUzI1S3JVWUowUVpZ?=
+ =?utf-8?B?K0VvbVk2Tk5INFdZdk5IRGozdTJ5a2dzYmpxdWFVZEpRcWtIUnBtVkZoKzcr?=
+ =?utf-8?B?ZTJXM0J6Y1BrSjNwamRDaGpwQUJpYy9Kb050ZkhJckZHQXJGVUVHbEdkOFRO?=
+ =?utf-8?B?c3VlSlg4UC9adFJOUVlFQktTTlAvRVM5SjNFWDllVEJYbUhLS2FjOU1YbGtw?=
+ =?utf-8?B?c1V4djdkMEplcG5EZ1R0QkcybkloSmRnZ3ZQb1FGK1BSZGVKZ0FyeVQ4SkNP?=
+ =?utf-8?B?bU1YTURHRmNmdG82Rm1DSGxqbURieUNLN1pYS3hhbmsyNmphRWxvT2x3eC9D?=
+ =?utf-8?B?MkE1ZXF0L1MzbHAyY0x2OHN5MzRhem4xeklIYnhYeGZZc1FXRUh0UHNSZ3VS?=
+ =?utf-8?B?ZmNYRnQzWU9uR3JhWDRhR2NEQVA4YjZUaXFmN2VVT0ZMVm1sY1ptc0NSZkZG?=
+ =?utf-8?B?bWF2Y3RKWm43NDFRMnhKWTcxem5ITTl2OHM3LzN1MmlUSUYybzJ5OTFQd0NZ?=
+ =?utf-8?B?aUtkSFNmYVJCUjJ3bVJyM0pORGV6K1VqbnNVRUdLbk9UNDdvdWZZeDdmK3lo?=
+ =?utf-8?B?YWgwZ3FJSzB4NHhYUHVTOFd2UFl4RUEwWFJYbFB1alg3TTdJVSs1aUpGUmdU?=
+ =?utf-8?B?TGlzWWtlQUplM1BFSWNYUnR4cjVnaC9URk13bDM1dUFaV2t5V0lHcmN0M3Ez?=
+ =?utf-8?B?eE9SVHpwYXM3U3p2MlYwMVlrU2l4bGJOQmsveWFiYUo0TjdGWmpaamFRMHlu?=
+ =?utf-8?B?VXQ4YkxnOHlwdllLeUlFTUYwMnd5WGZOY3J4RHJqbEYxcG5yWGJMeVcwYUlo?=
+ =?utf-8?B?cGJ2MFJubDBaSkhCbzNBbURhSVVlbUpHUVJJRmFseHpTTC9GajZMSXVVVjZ2?=
+ =?utf-8?B?NFRZc3pGWTJvNCtUTjBKNUplTy81U01raHZsaVp5RnU5VVJqWFQ0d25aL0or?=
+ =?utf-8?B?M1BPU1JVb1ZaMUlUU3RvOFVuTTVBSGFKcHFzaEttc0tRMjN5NmptVXVJbmV1?=
+ =?utf-8?B?WWJRWmV3c1NiVVF0UnordkpnV1I2SnZNd0NGN0E4SHFJVHlYbTRmNit3aWl5?=
+ =?utf-8?Q?mtqX4qYsopZjZSO6Ke9IJOFBsiGAMcxClu/pjOfOiL?=
+MIME-Version: 1.0
+
+----_=_NextPart0_db0cc367-2ed5-4540-bcc9-558d18d5ebe6
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+----_=_NextPart0_db0cc367-2ed5-4540-bcc9-558d18d5ebe6
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+><img alt=3D"" src=3D"https://proxy.cdn.qut.edu.au/sbs/SAMs-HiQ_logo.png" s=
+tyle=3D"height:70px; width:165px"></p><p>Hi Connor,</p><p>Thank you for you=
+r assignment extension request.</p><p>We have <strong>approved your request=
+</strong>&nbsp;<strong>(FORM-AEX-146893). </strong>The due date for your as=
+signment&nbsp;<strong>Assignment 3 - Capstone Project</strong>, for unit&nb=
+sp;IFN666&nbsp;has been extended&nbsp;<strong>until 24/06/2022 11.59pm AEST=
+.&nbsp;</strong></p><p></p><p>You are responsible for ensuring&nbsp;that th=
+is assignment is eligible for extension before submitting it after the orig=
+inal due date. Check your <a href=3D"http://www.qut.edu.au/study/unit?unitC=
+ode=3DIFN666">unit outline</a> for eligibility.&nbsp;</p><p></p><p>Be aware=
+ that a&nbsp;copy of this email is kept on file.&nbsp;You should not alter =
+this email in any way. Email notifications that have been altered or differ=
+ in any way from the original may result in an allegation of student miscon=
+duct as set out in the <a href=3D"https://www.mopp.qut.edu.au/E/E_02_01.jsp=
+#E_02_01.04.mdoc" target=3D"_blank">Student Code of Conduct.</a></p><p><str=
+ong>Need extra support?</strong> You can access free, confidential <a href=
+=3D"https://qutvirtual4.qut.edu.au/group/student/health-and-wellbeing/perso=
+nal-support-and-counselling/student-counselling" target=3D"_blank">counsell=
+ing with qualified professionals</a>. We also offer <a href=3D"https://qutv=
+irtual4.qut.edu.au/group/student/study/studying-with-a-disability-injury-or=
+-health-condition" target=3D"_blank">planning and support if you&nbsp;have =
+a disability, injury or health condition</a> that affects your ability to s=
+tudy. If you are struggling to meet your university commitments, <a href=3D=
+"https://qutvirtual4.qut.edu.au/group/student/study/assignments/submitting"=
+ target=3D"_blank">academic support</a> is also available.</p><p><strong>Ha=
+ve a question?</strong> You can contact us by email or phone.&nbsp;We=E2=80=
+=99re also available to help you on campus&nbsp;or via online chat. Visit t=
+he <a href=3D"https://qutvirtual4.qut.edu.au/web/qut/hiq" target=3D"_blank"=
+>HiQ website</a> for our contact details and opening hours.</p><table borde=
+r=3D"0" cellpadding=3D"1" cellspacing=3D"1" style=3D"width:500px">	<tbody>	=
+	<tr>			<td><a href=3D"mailto:askqut@qut.edu.au" target=3D"_blank"><img alt=
+=3D"Email us" src=3D"https://proxy.cdn.qut.edu.au/sbs/email_us.jpg" style=
+=3D"float:left; height:48px; width:260px"></a></td>			<td><img alt=3D"Phone=
+ us" src=3D"https://proxy.cdn.qut.edu.au/sbs/Phone_us.jpg" style=3D"float:r=
+ight; height:48px; width:260px"></td>		</tr>	</tbody></table><table border=
+=3D"0" cellpadding=3D"1" cellspacing=3D"1" style=3D"width:500px">	<tbody>		=
+<tr>			<td><a href=3D"https://qutvirtual4.qut.edu.au/group/student/hiq" tar=
+get=3D"_blank"><img alt=3D"About HiQ" src=3D"https://proxy.cdn.qut.edu.au/s=
+bs/HiQ_Signoff.jpg" style=3D"float:left; height:75px; width:699px"></a></td=
+>		</tr>	</tbody></table><p>You have received this email because you have s=
+ubmitted an assignment extension request. View our <a href=3D"https://www.q=
+ut.edu.au/additional/privacy" target=3D"_blank">Privacy and Security statem=
+ent</a>.</p><p style=3D"font-size:8px">Ref ID: 8844488&nbsp;FORM-AEX-146893=
+</p>=
+
+----_=_NextPart0_db0cc367-2ed5-4540-bcc9-558d18d5ebe6--
